@@ -35,7 +35,7 @@ app.get("/reserve", function(req, res) {
 });
 
 app.get("/tables", function(req, res) {
-  res.sendfile(path.join(__dirname, "tables.html"));
+  res.sendFile(path.join(__dirname, "tables.html"));
 });
 
 // // Displays a single character, or returns false
